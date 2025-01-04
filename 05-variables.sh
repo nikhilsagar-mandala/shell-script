@@ -1,12 +1,8 @@
 #!/bin/bash
-
-echo "Please enter your username ::"
-
+echo "Provide your username :: "
 read -s USERNAME
-# read -s is used for hiding the inputs which we're giving to the variables
-echo "User name is : $USERNAME"
-echo "Please give your password ::"
-
+echo "Provide your Password :: "
 read -s PASSWORD
+echo "User name is : $USERNAME"
 
 
