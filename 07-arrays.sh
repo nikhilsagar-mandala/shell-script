@@ -1,4 +1,4 @@
-MOVIES=("Pushpa", "rrr", "kgf")
+MOVIES=("Pushpa" "rrr" "kgf")
 
 echo "First movie is : $MOVIES[0]"
 echo "Second movie is : $MOVIES[1]"
