@@ -1,11 +1,9 @@
 #!/bin/bash
 
-# We denote the variables in Shell Scripting with "CAPITAL LETTERS"
-# For exampe "PERSON1"
+# We're giving dynamic inputs for the variables as command line arguments
 
-PERSON1=Suresh
-PERSON2=Ramesh  # Here for equal we should not give space
-
+PERSON1=$1
+PERSON2=$2
 
 
 echo "$PERSON1 :: Hi $PERSON2"     # To access the variable we need to use dollar i.e $
