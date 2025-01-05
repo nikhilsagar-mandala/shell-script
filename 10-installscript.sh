@@ -7,7 +7,7 @@ echo " $USER is not a root user. Hence exiting "
 fi
 
 dnf list insatlled mysql -y
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
 dnf install mysql -y
 else 
@@ -15,7 +15,7 @@ echo " mysql is already installed "
 fi
 
 dnf list installed mysql -y
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then 
 echo " mysql is not installed "
 else
