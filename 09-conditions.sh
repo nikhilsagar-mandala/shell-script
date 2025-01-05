@@ -9,7 +9,7 @@ echo "Number is less than 100"
 fi
 
 #Program2
-DAY=$1
+DAY=$"1"
 if [ $DAY -eq Sunday ]
 then
 echo "Today is Holiday because today is $DAY"
